@@ -91,7 +91,9 @@ setup(
         "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10",
         "Programming Language :: Python :: 3.11",
+
     ],
+    # "Programming Language :: Python :: 3.11",
     description="A 360° open-source platform from Python pilots to production-ready web apps.",
     install_requires=requirements,
     entry_points={
