@@ -1,0 +1,32 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+"backports.zoneinfo" = {version="==0.2.1", markers="python_version < '3.9'", extras=["tzdata"]}
+cookiecutter = "==2.1.1"
+taipy-gui = {ref = "develop", git = "https://github.com/avaiga/taipy-gui.git"}
+taipy-rest = {ref = "develop", git = "https://github.com/avaiga/taipy-rest.git"}
+taipy-templates = {ref = "develop", git = "https://github.com/avaiga/taipy-templates.git"}
+
+[dev-packages]
+autopep8 = "*"
+black = "*"
+flake8 = "*"
+flake8-docstrings = "*"
+isort = "*"
+mypy = "*"
+pre-commit = "*"
+pytest = "*"
+tox = "*"
+types-python-dateutil = "*"
+mongomock = "*"
+pytest-mock = "*"
+testbook = "*"
+
+[requires]
+python_version = "3"
+
+[pipenv]
+allow_prereleases = true
